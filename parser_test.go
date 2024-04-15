@@ -22,6 +22,7 @@ func TestParser(t *testing.T) {
 		"PKG_BREW_NAME":   "unixodbc",
 		"PKG_TEST_HEADER": "<sql.h>",
 		"PKG_LIBS":        "${PKG_LIBS:--lodbc}",
+		"VARIABLE_1S":     "Hello",
 	}
 
 	if len(expects) != len(kv) {

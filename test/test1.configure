@@ -16,6 +16,7 @@ PKG_BREW_NAME="unixodbc"
 PKG_TEST_HEADER="<sql.h>"
 PKG_LIBS="${PKG_LIBS:--lodbc}"
 1NONVALID_VARIABLE="Hello"
+VARIABLE_1S="Hello"
 
 
 # Note that cflags may be empty in case of success
